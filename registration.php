@@ -1,3 +1,7 @@
+<?php
+
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -47,9 +51,6 @@
                 <div class="row p-1">
                    <button type="submit" class="btn btn-primary col-12">Sign in</button>
                 </div>
-                <div class="row p-1 justify-content-center">
-                   <p><a class="link-opacity-10-hover" href="registration.php">Link hover opacity 10</a></p>
-                </div>
             </form>
 
           </div>
@@ -59,5 +60,6 @@
   </div>
 </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   </body>
 </html>

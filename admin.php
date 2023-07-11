@@ -60,25 +60,10 @@
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2 ">Registration Info</h3>
             <form class="input-group ">
                 <div class="custom-file col-12">
-                    <input type="file" class="btn btn-outline-secondary col-12 p-1" id="inputGroupFile04">
+                    <input type="text" class="btn btn-outline-secondary col-12 p-1" id="inputGroupFile04">
                 </div>
-                <div class="form-group mt-2 col-12">
-                    <select class="form-control col-12" id="exampleFormControlSelect1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    </select>
-                </div>
-                <div class="form-group mt-2 col-12">
-                    <select class="form-control col-12" id="exampleFormControlSelect1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    </select>
+                <div class="custom-file col-12">
+                    <input type="text" class="btn btn-outline-secondary col-12 p-1" id="inputGroupFile04">
                 </div>
             </form>
           </div>
@@ -87,10 +72,6 @@
     </div>
   </div>
 </section>
-    <script>
-        flatpickr("#myID", {});
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
 </html>
