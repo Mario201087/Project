@@ -59,11 +59,29 @@
           <div class="card-body p-4 p-md-5">
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2 ">Registration Info</h3>
             <form class="input-group ">
-                <div class="custom-file col-12">
-                    <input type="text" class="btn btn-outline-secondary col-12 p-1" id="inputGroupFile04">
+                <div class="row d-flex flex-row">
+                    <select class="form-select m-1" aria-label="Default select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <select class="form-select m-1" aria-label="Default select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <select class="form-select m-1" aria-label="Default select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
                 </div>
-                <div class="custom-file col-12">
-                    <input type="text" class="btn btn-outline-secondary col-12 p-1" id="inputGroupFile04">
+                <div class="row col-12 d-flex justify-content-between m-1">
+                    <input type="file" class="form-control-file col-6 " id="exampleFormControlFile1">
+                    <button type="submit" class="btn btn-primary col-6 ">Confirm identity</button>
                 </div>
             </form>
           </div>

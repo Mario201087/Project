@@ -1,3 +1,3 @@
 <?php
-	$dbc = mysqli_connect('localhost', 'root','','project') OR die(mysqli_connect_error());
+	$dbc = mysqli_connect('localhost', 'root','','') OR die(mysqli_connect_error());
 ?>
