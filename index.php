@@ -14,41 +14,24 @@
       <div class="col-lg-8 col-xl-6">
         <div class="card rounded-3">
           <div class="card-body p-4 p-md-5">
-            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2 ">Registration Info</h3>
+            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2 ">Logowanie</h3>
 
-            <form>
+            <form action="login.php" method="POST">
                 <div class="row d-flex ">
-                    <div class="col-md-6  p-1">
-                    <input type="email" class="form-control " id="inputEmail4" placeholder="Email">
-                    </div>
-                    <div class="col-md-6 p-1">
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                    <div class="col p-1">
+                    <input type="text" class="form-control " name="name" placeholder="Email">
                     </div>
                 </div>
-                <div class="row p-1">
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                <div class="row d-flex ">
+                    <div class="col p-1">
+                    <input type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
                 </div>
                 <div class="row p-1">
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div>
-                  <div class="row d-flex">
-                      <div class="col-md-6  p-1">
-                      <input type="date" class="form-control " id="inputEmail4" placeholder="Data urodzin">
-                      </div>
-                      <div class="col-md-6 p-1">
-                      <select class="form-select" aria-label=".form-select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                      </select>
-                      </div>
-                </div>
-                <div class="row p-1">
-                   <button type="submit" class="btn btn-primary col-12">Sign in</button>
+                   <button type="submit" class="btn btn-primary col-12">Zaloguj</button>
                 </div>
                 <div class="row p-1 justify-content-center">
-                   <p><a class="link-opacity-10-hover" href="registration.php">Link hover opacity 10</a></p>
+                   <p><a class="link-opacity-70-hover" href="registration.php">Rejestracja</a></p>
                 </div>
             </form>
 

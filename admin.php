@@ -58,7 +58,7 @@
         <div class="card rounded-3">
           <div class="card-body p-4 p-md-5">
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2 ">Registration Info</h3>
-            <form class="input-group ">
+            <form class="input-group " >
                 <div class="row d-flex flex-row">
                     <select class="form-select m-1" aria-label="Default select example">
                       <option selected>Open this select menu</option>
