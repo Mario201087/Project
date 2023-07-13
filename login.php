@@ -12,7 +12,7 @@ if($count>0)
 { 
     $row = $sql->fetch_assoc();
     $_SESSION["premissions"]=$row['premissions'];
-    header('Location: dashboard.php');
+    header('Location: admin.php');
     exit;
 }
 else

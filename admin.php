@@ -2,6 +2,7 @@
 
 include("connect.php");
 
+
 if($_SESSION['premissions']!=1)
 {
   header("Location: index.php");
