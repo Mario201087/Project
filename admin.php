@@ -1,3 +1,14 @@
+<?php
+
+include("connect.php");
+
+if($_SESSION['premissions']!=1)
+{
+  header("Location: index.php");
+}
+
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
