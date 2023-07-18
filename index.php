@@ -21,11 +21,41 @@
                     <div class="col p-1">
                     <input type="text" class="form-control " name="name" placeholder="Email">
                     </div>
+                    <div class="col p-1">
+                    <input type="text" class="form-control " name="name" placeholder="Email">
+                    </div>
                 </div>
                 <div class="row d-flex ">
                     <div class="col p-1">
                     <input type="password" class="form-control" name="password" placeholder="Password">
                     </div>
+                    <div class="col p-1">
+                    <input type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">Akrobatyka</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">Ścieżka</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="form-check-label" for="inlineCheckbox3">Siła</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">Gibkość</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">Skoczność</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="form-check-label" for="inlineCheckbox3">Akrobatyka</label>
                 </div>
                 <div class="row p-1">
                    <button type="submit" class="btn btn-primary col-12">Zaloguj</button>

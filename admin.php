@@ -40,7 +40,7 @@ if($_SESSION['premissions']!=1)
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="jpg.php">Ćwiczenia</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Features</a>
@@ -70,7 +70,7 @@ if($_SESSION['premissions']!=1)
         <div class="card rounded-3">
           <div class="card-body p-4 p-md-5">
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2 ">Registration Info</h3>
-            <form class="input-group " >
+            <form class="input-group " action="picture.php" method="post" enctype="multipart/form-data">
                 <div class="row d-flex flex-row">
                     <select class="form-select m-1" aria-label="Default select example">
                       <option selected>Open this select menu</option>
@@ -92,8 +92,8 @@ if($_SESSION['premissions']!=1)
                     </select>
                 </div>
                 <div class="row col-12 d-flex justify-content-between m-1">
-                    <input type="file" class="form-control-file col-6 " id="exampleFormControlFile1">
-                    <button type="submit" class="btn btn-primary col-6 ">Confirm identity</button>
+                    <input type="file" class="form-control-file col-6 " id="exampleFormControlFile1" name="zdjecie">
+                    <button type="submit" class="btn btn-primary col-6 ">Dodaj</button>
                 </div>
             </form>
           </div>
